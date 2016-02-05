@@ -1,0 +1,29 @@
+{
+  "name": "buffered-promise-stream",
+  "version": "0.0.0",
+  "description": "A buffered, sliding-window promise stream utility. Kicks off pre-defined operations on-demand, trying to keep a buffer of results ready to minimize latency.",
+  "main": "lib/BufferedPromiseStream.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui=exports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwicke/buffered-promise-stream.git"
+  },
+  "keywords": [
+    "promise",
+    "stream"
+  ],
+  "author": "Gabriel Wicke <gwicke@wikimedia.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gwicke/buffered-promise-stream/issues"
+  },
+  "devDependencies": {
+    "bluebird": "^3.2.1",
+    "mocha": "^2.4.5"
+  }
+}
